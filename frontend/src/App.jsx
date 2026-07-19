@@ -850,7 +850,7 @@ const truckIcon = new L.Icon({
 });
 
 // Initialize socket connection matching your backend address
-const socket = io('http://localhost:5000', { autoConnect: false });
+const socket = io('https://logistic-router-backend.onrender.com', { autoConnect: false });
 
 const CENTER_COORDS = [29.9686, 76.8126];
 const ROUTE_COLORS = ['#3b82f6', '#ef4444', '#10b981', '#f59e0b', '#8b5cf6', '#ec4899'];
