@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
+"scripts": {
   "start": "node src/index.js",
   "dev": "nodemon src/index.js",
-  "build": "npm install && pip install ortools"
+  "build": "npm install && pip install ortools --break-system-packages"
 },
 
   "keywords": [],
