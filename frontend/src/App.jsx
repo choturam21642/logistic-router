@@ -944,7 +944,7 @@ export default function App() {
     const demands = locations.map(loc => loc.demand);
 
     try {
-      const response = await fetch('http://localhost:5000/api/optimize', {
+      const response = await fetch('https://logistic-router-backend.onrender.com/api/optimize', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
